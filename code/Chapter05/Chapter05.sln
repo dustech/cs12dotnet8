@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PacktLibraryModern", "Packt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Namespaces", "Namespaces\Namespaces.csproj", "{06CCDC22-162D-49B4-A6DB-97FC4CA0E940}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiePiccoleProve", "MiePiccoleProve\MiePiccoleProve.csproj", "{1469DD01-0B76-47F0-AF4A-461DB870BFB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{06CCDC22-162D-49B4-A6DB-97FC4CA0E940}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06CCDC22-162D-49B4-A6DB-97FC4CA0E940}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06CCDC22-162D-49B4-A6DB-97FC4CA0E940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1469DD01-0B76-47F0-AF4A-461DB870BFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1469DD01-0B76-47F0-AF4A-461DB870BFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1469DD01-0B76-47F0-AF4A-461DB870BFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1469DD01-0B76-47F0-AF4A-461DB870BFB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncConsole", "AsyncConsol
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch02Ex03Numbers", "Ch02Ex03Numbers\Ch02Ex03Numbers.csproj", "{9C4AED5C-82B2-4531-A023-8E9A576C937F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiePIccoleProve", "MiePIccoleProve\MiePIccoleProve.csproj", "{A5C876C3-FC7F-4EC7-953C-33115DC062D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9C4AED5C-82B2-4531-A023-8E9A576C937F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C4AED5C-82B2-4531-A023-8E9A576C937F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C4AED5C-82B2-4531-A023-8E9A576C937F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C876C3-FC7F-4EC7-953C-33115DC062D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C876C3-FC7F-4EC7-953C-33115DC062D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C876C3-FC7F-4EC7-953C-33115DC062D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C876C3-FC7F-4EC7-953C-33115DC062D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

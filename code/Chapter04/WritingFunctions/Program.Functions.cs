@@ -1,4 +1,5 @@
-﻿using System.Globalization; // To use CultureInfo.
+﻿using System.Data;
+using System.Globalization; // To use CultureInfo.
 
 partial class Program
 {
@@ -83,6 +84,31 @@ partial class Program
     }
     WriteLine();
   }
+
+  ///
+  /// <summary>
+  /// Ho riscritto la funzione usando il pattern matching dello switch
+  /// </summary>
+  /// 
+  static int Factorial2(int number)
+  {
+    checked
+    {
+      int result = number switch
+      {
+        0 => 1,
+        int n when n < 0 => throw new ArgumentOutOfRangeException(message:
+          $"The factorial function is defined for non-negative integers only. Input: {number}",
+          paramName: nameof(number)),
+        int n => n * Factorial2(n - 1),
+
+
+      };
+      return result;
+    }
+
+  }
+
 
   static int Factorial(int number)
   {
@@ -171,4 +197,31 @@ partial class Program
         arg1: FibFunctional(term: i));
     }
   }
+
+  static int FastFibonacci(int target)
+  {
+
+    return target switch
+    {
+      0 => 0,
+      1 => 1,
+      int t => fFibonacci(0, 1, 2, t)
+    };
+
+
+    int fFibonacci(int fst, int snd, int current, int target)
+    {
+      if (current == target)
+      {
+        return fst + snd;
+      }
+      return fFibonacci(snd, fst + snd, current + 1, target);
+    }
+
+  }
+
+  // static int FastFibonacci(int fst, int snd, int nextFib )
+  // {
+  //   return FastFibonacci (snd, fst + nextFib);
+  // }
 }

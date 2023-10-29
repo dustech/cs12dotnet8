@@ -3,6 +3,6 @@
 
 while (true)
 {
-  WriteLine("Hello, Hot Reload!");
+  WriteLine("Hello, Hot Reload! Panico Naturale");
   await Task.Delay(2000);
 }

@@ -18,6 +18,8 @@ public class Dog : Animal
   }
 }
 
+public class Joy(string name) : Dog(name);
+
 public class AnimalPrinter : IPrint<Animal>
 {
   public string Print(Animal toPrint)
@@ -50,6 +52,15 @@ public class DogTransformer : ITransformer<Animal, Dog>
     return new Dog(toTransForm.Name);
   }
 }
+
+public class JoyTransformer : ITransformer<Animal, Joy>
+{
+  public Joy Transform(Animal toTransForm)
+  {
+    return new Joy(toTransForm.Name);
+  }
+}
+
 
 public interface IPrint<in T>
 {

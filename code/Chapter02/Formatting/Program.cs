@@ -1,4 +1,10 @@
-﻿#region Formatting using numbered positional arguments
+﻿using System.Globalization;
+
+CultureInfo it = new("it-IT");
+
+Thread.CurrentThread.CurrentCulture = it;
+
+#region Formatting using numbered positional arguments
 
 int numberOfApples = 12;
 decimal pricePerApple = 0.35M;
@@ -21,7 +27,7 @@ WriteLine("{0} {1} lived in {2}.",
 
 // Four or more parameter values cannot use named arguments.
 WriteLine(
-  "{0} {1} lived in {2} and worked in the {4} team at {5}.",
+  "{0} {1} lived in {2} and worked in the {3} team at {4}.",
   "Roger", "Cevung", "Stockholm", "Education", "Optimizely");
 
 #endregion

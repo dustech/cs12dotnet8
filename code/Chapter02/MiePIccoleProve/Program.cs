@@ -1,13 +1,15 @@
 ﻿using System;
+//using static System.Console; // l'opzione statica e' messa nel file di progetto 
+
 namespace MiePiccoleProve
 {
   class Program
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello, World!");
+      WriteLine("Hello, World!");
       ProngoMizio prongo = new();
-      Console.WriteLine($$"""{{prongo.DimmiTutto}}""");
+      WriteLine($$"""{{prongo.DimmiTutto}}""");
 
     }
   }

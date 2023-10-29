@@ -15,6 +15,24 @@ Assembly? myApp = Assembly.GetEntryAssembly();
 // If the previous line returned nothing then end the app.
 if (myApp is null) return; 
 
+//funzionale
+
+var bongo = myApp.GetReferencedAssemblies()
+  .Select(a => Assembly.Load(a.Name))
+  .Select(a => Tuple.Create(a.FullName, a.DefinedTypes.Count(),
+      a.DefinedTypes.Aggregate(0,(acc,t) => acc + t.GetMethods().Length)
+    ))
+  .Select(a => {
+    WriteLine("{0:N0} types with {1:N0} methods in {2} assembly.",
+      arg0: a.Item2,
+      arg1: a.Item3,
+      arg2: a.Item1);
+      return 0;
+  }).ToList();
+
+
+
+
 // Loop through the assemblies that my app references.
 foreach (AssemblyName name in myApp.GetReferencedAssemblies())
 {

@@ -15,4 +15,8 @@ public class PiccoleProveFelici
     get;
     set;
   }
+
+  public string Kaka => "Kaka";
+
+  public string Roo => "Roo";
 }

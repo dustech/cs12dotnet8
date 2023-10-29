@@ -21,3 +21,7 @@ var bongami = pane.Bongami;
 var pippo = pane.Quanto;
 
 WriteLine("{0} | {1}", bongami, pippo);
+
+var kakaroo = (cannolo.Kaka, cannolo.Roo);
+
+WriteLine("{0} | {1}", kakaroo.Kaka, kakaroo.Roo);

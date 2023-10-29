@@ -55,3 +55,13 @@ foreach (AssemblyName name in myApp.GetReferencedAssemblies())
     arg1: methodCount,
     arg2: name.Name);
 }
+
+string zio = "zio";
+string myJon = 
+$$""""
+{{zio}}
+Calameir, is a new Calamaro
+but I like calamaro.
+"""";
+
+WriteLine(myJon);

@@ -12,6 +12,7 @@ if (args.Length < 3)
   return; // Stop running.
 }
 
+
 ForegroundColor = (ConsoleColor)Enum.Parse(
   enumType: typeof(ConsoleColor),
   value: args[0], ignoreCase: true);

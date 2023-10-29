@@ -10,7 +10,7 @@ namespace MiePiccoleProve
       // WriteLine("Hello, World!");
       // ProngoMizio prongo = new();
       // WriteLine($$"""{{prongo.DimmiTutto}}""");
-      ProngoMizio prongy = new();
+      ProngoMizio prongy = new("Gino");
       prongy = null;
       int bonzio = prongy?.Cannolo ?? 20;
       int cano = prongy?.Cannolo ?? 35;

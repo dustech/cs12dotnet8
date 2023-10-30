@@ -2,8 +2,8 @@
 using System.Security.Cryptography;
 using CovarianteEControvariante;
 
-Dog axel = new("Axel");
-Cat limon = new("Lion");
+Dog axel = new("Axel", 15);
+Cat limon = new("Lion", 5);
 AnimalPrinter printer = new();
 
 

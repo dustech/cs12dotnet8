@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoursesAndStudents", "Cours
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreLib", "EFCoreLib\EFCoreLib.csproj", "{031DD207-98BB-4BB4-B4FB-8D2B187581A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityModels", "EntityModels\EntityModels.csproj", "{BD7EF609-4CB5-44E2-B6BC-8B9E007A6DCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{031DD207-98BB-4BB4-B4FB-8D2B187581A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{031DD207-98BB-4BB4-B4FB-8D2B187581A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{031DD207-98BB-4BB4-B4FB-8D2B187581A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7EF609-4CB5-44E2-B6BC-8B9E007A6DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7EF609-4CB5-44E2-B6BC-8B9E007A6DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7EF609-4CB5-44E2-B6BC-8B9E007A6DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7EF609-4CB5-44E2-B6BC-8B9E007A6DCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,4 +15,8 @@
   <PackageReference Version="8.0-*" Include="Microsoft.EntityFrameworkCore.Sqlite" />
 </ItemGroup>
 
+<ItemGroup>
+  <ProjectReference Include="..\EntityModels\EntityModels.csproj" />
+</ItemGroup>
+
 </Project>
